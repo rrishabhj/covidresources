@@ -1,8 +1,3 @@
-$(document).ready(function () {
-    
-    
-});
-
 params = {
     "location": "Delhi",
     "search_criteria": ["beds", "icu"],
@@ -27,3 +22,7 @@ function getTwitterUrl(params, constant_parameters) {
     url = url + "&f=live"
     return url
 }
+
+$(document).ready(function () {
+    console.log("test message");     
+});
